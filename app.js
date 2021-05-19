@@ -1,6 +1,7 @@
 console.log('my function is making billion dollar in an hour!!');
 
-function add(a, b) {
-  let sum = a + b;
+function add(...arr) {
+  let sum = 0;
+  arr.forEach((e) => (sum += e));
   return sum;
 }
