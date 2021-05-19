@@ -1,4 +1,5 @@
-console.log('my function is making billion dollar in an hour!!'); //this is my conflict arrising commit
+
+console.log(''our factory methods is about to start'); //this is my conflict arrising commit
 
 //this is payment method handler
 class Payment {
@@ -33,3 +34,4 @@ class Teacher {
     this.experience = experience;
   }
 }
+
